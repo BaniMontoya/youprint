@@ -8,5 +8,7 @@ urlpatterns = patterns('',
     url(r'^$', 'central.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^gestor/', include(admin.site.urls)),
+    (r'^accounts/', include('registration.backends.default.urls')),
+
 )
