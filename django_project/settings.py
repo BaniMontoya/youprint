@@ -27,12 +27,16 @@ SECRET_KEY = '2mK8UN5feTOMM9y4cxBRpEYPfDK2LYjteLd1woxkIQhKinQw4U'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ACCOUNT_ACTIVATION_DAYS=7
-EMAIL_HOST='smtp.google.com'
-EMAIL_PORT=587
-EMAIL_HOST_USER='bmksoporte@gmail.com'
+EMAIL_HOST = 'smtp.gmail.com'
 
-EMAIL_HOST_PASSWORD='Amor.789'
-TEMPLATE_DEBUG = True
+EMAIL_HOST_USER = 'bmksoporte@gmail.com'
+
+EMAIL_HOST_PASSWORD = 'Amor.789'
+
+EMAIL_PORT = 587
+
+EMAIL_USE_TLS = True
+
 TEMPLATE_DIRS = (os.path.join(PROJECT_DIR, 'templates').replace('\\','/'),)
 
 ALLOWED_HOSTS = []
