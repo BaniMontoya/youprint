@@ -27,9 +27,9 @@ SECRET_KEY = '2mK8UN5feTOMM9y4cxBRpEYPfDK2LYjteLd1woxkIQhKinQw4U'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ACCOUNT_ACTIVATION_DAYS=7
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = 'mail.imetafora.com'
 
-EMAIL_HOST_USER = 'bmksoporte@gmail.com'
+EMAIL_HOST_USER = 'bmk@imetafora.com'
 
 EMAIL_HOST_PASSWORD = 'Amor.789'
 
