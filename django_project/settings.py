@@ -23,6 +23,7 @@ SECRET_KEY = '2mK8UN5feTOMM9y4cxBRpEYPfDK2LYjteLd1woxkIQhKinQw4U'
 DEBUG = True
 
 TEMPLATE_DEBUG = True
+TEMPLATE_DIRS = (os.path.join(PROJECT_DIR, 'templates').replace('\\','/'),)
 
 ALLOWED_HOSTS = []
 
