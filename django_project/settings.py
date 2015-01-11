@@ -36,6 +36,9 @@ EMAIL_HOST_PASSWORD = 'Amor.789'
 EMAIL_PORT = 587
 
 EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'bmk@imetafora.com'
+
+
 
 TEMPLATE_DIRS = (os.path.join(PROJECT_DIR, 'templates').replace('\\','/'),)
 
