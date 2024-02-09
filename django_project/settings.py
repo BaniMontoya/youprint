@@ -25,7 +25,7 @@ PROJECT_DIR = os.path.abspath(os.path.dirname(__file__))
 SECRET_KEY = '2mK8UN5feTOMM9y4cxBRpEYPfDK2LYjteLd1woxkIQhKinQw4U'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 ACCOUNT_ACTIVATION_DAYS=7
 EMAIL_HOST = 'mail.ipage.com'
 
